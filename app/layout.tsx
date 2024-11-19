@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Roboto } from "next/font/google"; // Replace Sora with Roboto
 import "./globals.css";
+import ResponsiveNavbar from "./Components/Home/Navbar/ResponsiveNavbar";
 
 const font = Roboto({
   weight: ["100", "300", "400", "500", "700"],
@@ -34,6 +35,7 @@ export default function RootLayout({
       <body
         className={`${font.className} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <ResponsiveNavbar/>
         {children}
       </body>
     </html>

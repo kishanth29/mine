@@ -1,8 +1,12 @@
 import React from 'react'
+import Home from './Components/Home/Home';
 
 const Homepage = () => {
   return (
-    <div className='text-5xl'>Homepage</div>
+    <div className='' >
+      <Home/>
+
+    </div>
   )
 }
 
