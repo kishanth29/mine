@@ -1,5 +1,5 @@
 export const BaseInfo = {
-  name: "Kishan",
+  name: "Kishanth",
   position: "Full Stack Web Developer",
   description:
     "Full-stack developer skilled in MERN stack, .NET, Spring Boot, Next.js, and React. I specialize in building scalable web applications with robust back-end systems and dynamic front-end interfaces. Dedicated to delivering innovative and efficient solutions tailored to user needs.",
