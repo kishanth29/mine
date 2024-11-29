@@ -44,7 +44,7 @@ const Hero = () => {
           {/* image content */}
           <div
             data-aos ="zoom-in" data-aos-delay="400"
-            className="mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950
+            className="mx-auto  rounded-[3rem] border-[3.5px] border-blue-950
           overflow-x-hidden"
           >
             <Image
