@@ -37,7 +37,7 @@ const Nav = ({ openNav }: Props) => {
       <div className="flex items-center h-full justify-between w-[95%] sm:w-[80%] mx-auto ">
         {/* Logo */}
 
-        <h6 className="text-white font-bold font-serif">Kishan</h6>
+        <h6 className="text-white font-bold font-serif hidden lg:block">Kishan</h6>
         {/* Nav Links */}
         <div className="flex items-center space-x-10">
           <div className="hidden lg:flex items-center space-x-8">
@@ -51,7 +51,7 @@ const Nav = ({ openNav }: Props) => {
           <div className="flex items-center space-x-4">
             <button
               className="md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white
-                hover:bg-gray-200 transition-all duration-200 rounded-lg"
+                hover:bg-gray-200 transition-all duration-200 rounded-lg hidden lg:block"
             >
               Hire Me
             </button>
