@@ -1,7 +1,7 @@
 import React from "react";
 import SectionHeading from "../../Helper/SectionHeading";
 import { skillsData } from "@/app/Data/data";
-import { DiVim } from "react-icons/di";
+
 import SkillCard from "./SkillCard";
 
 const Skills = () => {
