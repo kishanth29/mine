@@ -37,13 +37,14 @@ const Nav = ({ openNav }: Props) => {
     >
       <div className="flex items-center h-full justify-between w-[95%] sm:w-[80%] mx-auto ">
         {/* Logo */}
-        <Image
+        {/* <Image
           src="/images/logo.png"
           alt="LOGO"
           width={170}
           height={170}
-          className="ml-[-1.5rem] sm:ml-0"
-        />
+          className="ml-[-1.5rem] sm:ml-0 "
+        /> */}
+        <h6 className="text-white font-bold font-serif">Kishan</h6>
         {/* Nav Links */}
         <div className="flex items-center space-x-10">
           <div className="hidden lg:flex items-center space-x-8">

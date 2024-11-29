@@ -5,13 +5,14 @@ const Footer = () => {
   return (
     <div className="pt-16 pb-16  bg-[#0f0715]">
       <div className="">
-        <Image
+        {/* <Image
           src="/images/logo.png"
           alt="logo"
           width={180}
           height={180}
           className="mx-auto"
-        />
+        /> */}
+        {/* <h6 className="text-white font-bold font-serif mx-auto">Kishan</h6> */}
       </div>
       <div className="flex items-center flex-wrap justify-center space-x-10 space-y-4 text-white font-bold">
         <div className="">Home</div>
